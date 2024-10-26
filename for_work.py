@@ -34,3 +34,4 @@ for day in range(1,21):
     print()
 
 print('Тестовый комит с работы')
+print('Тестовый комит с дома, с user.name thelistratov_home')
