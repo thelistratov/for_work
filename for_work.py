@@ -9,3 +9,5 @@ class Man:
 fink_igor = Man()
 
 fink_igor.strengh += 10
+
+print(fink_igor)
