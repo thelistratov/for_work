@@ -1,6 +1,6 @@
 
 from random import randint
-
+from termcolor import colored, cprint
 
 #TODO
 # import sys
@@ -83,8 +83,8 @@ class House:
 
 beavis = Man(name='Beavis')
 batthead = Man(name='Batthead')
-for day in range(1, 410):
-    print('========================= день {} ===================='.format(day))
+for day in range(1, 41):
+    cprint('========================= день {} ===================='.format(day), color="yellow")
     beavis.act()
     batthead.act()
     print(beavis)
