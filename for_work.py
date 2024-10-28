@@ -89,4 +89,5 @@ for day in range(1, 41):
     batthead.act()
     print(beavis)
     print(batthead)
+print('test_push')
 
